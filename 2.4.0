@@ -1,0 +1,12 @@
+Collecting tornado
+  Downloading tornado-6.5-cp39-abi3-win_amd64.whl.metadata (2.9 kB)
+Collecting pygments
+  Using cached pygments-2.19.1-py3-none-any.whl.metadata (2.5 kB)
+Collecting psutil
+  Using cached psutil-7.0.0-cp37-abi3-win_amd64.whl.metadata (23 kB)
+Downloading tornado-6.5-cp39-abi3-win_amd64.whl (444 kB)
+Using cached pygments-2.19.1-py3-none-any.whl (1.2 MB)
+Using cached psutil-7.0.0-cp37-abi3-win_amd64.whl (244 kB)
+Installing collected packages: tornado, pygments, psutil
+
+Successfully installed psutil-7.0.0 pygments-2.19.1 tornado-6.5
