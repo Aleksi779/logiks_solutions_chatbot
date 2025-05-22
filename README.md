@@ -26,3 +26,33 @@ conda activate llmapp
 ```bash
 pip install -r requirements.txt
 ```
+
+### Step 03 - Create a .env file in the root directory and add your Pinecone & openai api keys as follows:
+
+```ini
+PINECONE_API_KEY="xxxxxxxxxxxxxxxxxxxxxx"
+OPENAI_API_KEY="xxxxxxxxxxxxxxxxxxxxxx"
+```
+
+```bash
+# Run following command to store embeddings to pinecone
+python store_index.py
+```
+
+```bash
+# Run the following command to start the application
+python app.py
+```
+
+Now,
+```bash
+open up localhost:
+```
+
+### Tech stack used:
+
+- Python
+- Langchain
+- Flask
+- GPT
+- Pinecone
