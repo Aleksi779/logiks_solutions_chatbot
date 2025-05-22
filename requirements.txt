@@ -4,8 +4,10 @@ flask
 pypdf
 python-dotenv
 pinecone[grpc]
+# transformers
+# SentencePiece
 langchain-pinecone
 langchain-community
-langchain-google-genai
+langchain-openai
 langchain-experimental
 -e .
