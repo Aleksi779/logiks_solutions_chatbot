@@ -1,11 +1,10 @@
 sentence-transformers
+torch>=1.0.1
 langchain
 flask
 pypdf
 python-dotenv
 pinecone[grpc]
-# transformers
-# SentencePiece
 langchain-pinecone
 langchain-community
 langchain-openai
