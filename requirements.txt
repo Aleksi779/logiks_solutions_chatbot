@@ -1,5 +1,4 @@
 sentence-transformers==2.2.2
-torch>=1.0.1
 langchain
 flask
 pypdf
